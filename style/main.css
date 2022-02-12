@@ -1,0 +1,200 @@
+:root{
+    --azul:#0D69FF;
+    --preta:#141414;
+}
+
+.container{
+    margin: 20px;
+}
+
+.desenho-principal .container{
+    width: 40%;
+    text-align: justify;
+}
+
+.filme-principal .container{
+    width: 40%;
+    text-align: justify;
+}
+
+.series-principal .container{
+    width: 40%;
+    text-align: justify;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family:'Arial', Times, serif;
+    color:white;
+}
+
+header h2{
+    color:white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    margin: 10px;
+    margin-right: 100px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: 'Arial Black';
+}
+
+header nav a:hover{
+    color: #aaa;
+    font-family: 'Arial Black';
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+/*Capas*/
+
+.capa-principal{
+    font-size:17px;
+    background: url('/img/capainicio.jpg');
+    height: 1000px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.desenho-principal{
+    font-size:17px;
+    background: url('/img/capa-dragonballz.jpg');
+    height: 1000px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal{
+    font-size:17px;
+    background: url('/img/capafilme.jpg');
+    height: 1000px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.series-principal{
+    font-size:17px;
+    background: url('/img/capaseries.jpg');
+    height: 1000px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main p{
+    margin-bottom: 50px;
+    margin-top: 2%;
+}
+
+main h3{
+    margin-top: 6%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+main button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 8%;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: var(--azul);
+    color: black;
+}
+
+button i{
+    margin-right: 5px;
+}
+
+/*Carrosel*/
+.desenhos{
+    margin-top: 10px;
+}
+.desenhos nav a:hover{
+    color: #aaa;
+}
+.desenhos nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Arial Black';
+}
+
+
+.filmes{
+    margin-top: 10px;
+}
+.filmes nav a:hover{
+    color: #aaa;
+}
+.filmes nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Arial Black';
+}
+
+
+.series{
+    margin-top: 10px;
+}
+.series nav a:hover{
+    color: #aaa;
+}
+.series nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Arial Black';
+}
+
+
+.titulo h3{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Arial Black';
+}

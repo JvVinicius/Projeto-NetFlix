@@ -1,0 +1,56 @@
+@media screen and (max-width: 900px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-top: 5px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .capa-principal{
+        height: 800px;
+    }
+    .filme-principal{
+        height: 800px;
+    }
+    .series-principal{
+        height: 800px;
+    }
+    .desenho-principal{
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .capa-principal{
+        height: 500px;
+    }
+    .filme-principal{
+        height: 500px;
+    }
+    .series-principal{
+        height: 500px;
+    }
+    .desenho-principal{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .capa-principal{
+        height: 300px;
+    }
+    .filme-principal{
+        height: 300px;
+    }
+    .series-principal{
+        height: 300px;
+    }
+    .desenho-principal{
+        height: 300px;
+    }
+}
